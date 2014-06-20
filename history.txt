@@ -126,3 +126,503 @@
   126  nano pasoparacreariso.txt 
   127  clear
   128  history >> history.txt
+    8  dpkg-buildpackage -us -uc
+    9  cd ..
+   10  ls
+   11  dkpg -i bmon_2.0.1-3_amd64.deb
+   12  dpkg -i bmon_2.0.1-3_amd64.deb
+   13  bmon
+   14  clear
+   15  ls
+   16  ls
+   17  clear
+   18  ls
+   19  dpkg-buildpackage -us -uc
+   20  clear
+   21  cd bmon-2.0.1/
+   22  dpkg-buildpackage -us -uc
+   23  dpkg-source --commit
+   24  clear
+   25  cd src
+   26  ls
+   27  nano bmon
+   28  nano out_curces.c
+   29  nano out_curses.c
+   30  cd ..
+   31  ls
+   32  cd ..
+   33  ls
+   34  aptitude remove --purge bmon_2.0.1-3_amd64.deb
+   35  clear
+   36  ls
+   37  cd bmon-2.0.1/
+   38  dpkg-buildpackage -us -uc
+   39  dpkg-source --commit
+   40  clear
+   41  ls
+   42  cd ..
+   43  ls
+   44  dpkg -i bmon_2.0.1-3_amd64.deb 
+   45  ls
+   46  bmon
+   47  bmon
+   48  clear
+   49  clear
+   50  ~
+   51  clear
+   52  ~
+   53  clear
+   54  aptitude search canaima-desarollo
+   55  aptitude search canaima-desarrollo
+   56  aptitude search canaima-desarrollador
+   57  aptitude install canaima-desarrollador
+   58  clear
+   59  canaima-desarollador
+   60  aptitude search canaima-desarrollador
+   61  canaima-desarrollador 
+   62  clear
+   63  cd /home/equipo6/
+   64  mkdir canaima
+   65  cd canaima/
+   66  clear
+   67  canaima-desarrollador
+   68  ls -la
+   69  canaima-desarrollador 
+   70  exit
+   71  aptitude show canaima-acerca
+   72  aptitude search canaima-acerca
+   73  apt-get source canaima-acerca
+   74  ls
+   75  aptitude show canaima-acerca-gnome
+   76  aptitude show canaima-acerca
+   77  aptitude install canaima-acerca
+   78  aptitude install canaima-acerca-gnome
+   79  ls
+   80  cd canaima-acerca-gnome-3.1/
+   81  ls
+   82  nano contributors.list 
+   83  ls
+   84  nano AUTHORS 
+   85  nano gnome-version.xml 
+   86  cd ..
+   87  cd canaima-acerca-gnome-3.1/
+   88  ls
+   89  nano gnome-version.xml 
+   90  cd ..
+   91  cd canaima-acerca-gnome-3.1/
+   92  ls
+   93  dpkg-buildpackage -us -uc
+   94  dpkg-source --commit
+   95  dpkg-buildpackage -us -uc
+   96  cd ..
+   97  ls
+   98  dpkg-i canaima-acerca_3.1-15_all.deb 
+   99  dpkg -i canaima-acerca_3.1-15_all.deb 
+  100  aptitude install canaima-acerca-gnome
+  101  ls
+  102  dpkg -i *.deb
+  103  canaima-acerca-gnome 
+  104  aptitude remove --purge canaima-acerca-gnome
+  105  aptitude search canaima-b
+  106  aptitude show canaima-bienvenido-gnome
+  107  ls
+  108  rm -rf canaima-acerca_3.1-15_all.deb canaima-acerca-gnome-3.1/
+  109  ls
+  110  rm -rf canaima-acerca-gnome_3.1-15_all.deb 
+  111  ls
+  112  rm -rf canaima-acerca-gnome_3.1-15_amd64.changes canaima-acerca-gnome_3.1-15.debian.tar.gz canaima-acerca-gnome_3.1.orig.tar.gz canaima-acerca-gnome_3.1-15.dsc gnome-about_3.1-15_all.deb 
+  113  ls
+  114  cd paquetecanaima/
+  115  cd ..
+  116  mkdir prueb
+  117  cd prueb/
+  118  aptitude source canaima-bienvenido-gnome
+  119  apt-get source canaima-bienvenido-gnome
+  120  aptitude search caniama-
+  121  aptitude search canaima-
+  122  apt-get source canaima-salvapantalla
+  123  cd canaima-salvapantalla-0.1/
+  124  ls
+  125  nano canaima.desktop 
+  126  cd debian/
+  127  ls
+  128  cd source/
+  129  ls
+  130  cd ..
+  131  cd ..
+  132  ls
+  133  nano THANKS 
+  134  aptitude install canaima-salvapantalla
+  135  aptitude remove --purge canaima-salvapantalla
+  136  aptitude search canaima-
+  137  cd ..
+  138  apt-get source canaima-notas-gnome 
+  139  apackage)                    
+  140  i   canaima-notas-gnome                                                    - Cliente plataforma http://notas.canaima.softwarelibre.gob.ve                    
+  141  i   canaima-ofimatica-gnome                                                - Programas de ofimática para Canaima GNU/Linux (metapackage)                     
+  142  p   canaima-plymouth                                                       - Tema Gráfico de Canaima para Plymouth                                           
+  143  p   canaima-primeros-pasos                                                 - Primeros pasos con Canaima GNU/Linux.                                           
+  144  p   canaima-salvapantalla                                                  - Protector de pantalla para Canaima GNU/Linux                                    
+  145  p   canaima-semilla                                                        - Generador de medios vivos para Canaima GNU/Linux                                
+  146  i   canaima-web-gnome                                                      - Aplicaciones web para Canaima GNU/Linux                                         
+  147  i A canaima-webapps                                                        - Canaima Aplicaciones web.                                                       
+  148  root@laboratorio6:/home/equipo6/control/prueb/canaima-salvapantalla-0.1# cd ..
+  149  root@laboratorio6:/home/equipo6/control/prueb# apt-get source canaima-notas-gnome 
+  150  Leyendo lista de paquetes... Hecho
+  151  pwd
+  152  ls
+  153  cd canaima-notas-gnome-4.0/
+  154  ls
+  155  nano canaima_notas_gnome.py 
+  156  nano canaima_notas_gnome.py 
+  157  clear
+  158  dpkg-buildpackage -us -uc
+  159  dpkg-source --commit
+  160  dpkg-buildpackage -us -uc
+  161  cd ..
+  162  dpkg-buildpackage -us -uc
+  163  clear
+  164  ls
+  165  cd canaima-notas-gnome-4.0/
+  166  dpkg-source --commit
+  167  ls
+  168  dpkg-buildpackage -us -uc
+  169  clear
+  170  cd ..
+  171  dpkg-buildpackage -us -uc
+  172  cd canaima-notas-gnome-4.0/
+  173  ls
+  174  dpkg-source --commit
+  175  clear
+  176  ls
+  177  cd ..
+  178  ls
+  179  aptitude remove --purge canaima-notas-gnome 
+  180  clear
+  181  make install
+  182  clear
+  183  cd canaima-notas-gnome-4.0/
+  184  make install
+  185  nano canaima_notas_gnome.py 
+  186  nano canaima_notas_gnome.py 
+  187  clear
+  188  aptitude remove --purge canaima-notas-gnome 
+  189  dpkg-source --commit
+  190  dpkg-buildpackage -us -uc
+  191  clear
+  192  make install
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd canaima-notas-gnome-4.0/
+  197  ls
+  198  ls
+  199  cd ..
+  200  ls
+  201  mv canaima-notas-gnome-4.0/ /home/equipo6/control/paquetecanaima/
+  202  ls
+  203  cd /home/equipo6/control/paquetecanaima/
+  204  ls
+  205  clear
+  206  git add --all
+  207  git commit -a -m "Subiendo Canaima-notas-gnome-4.0"
+  208  clear
+  209  git commit -a -m "Subiendo Canaima-notas-gnome-4.0"
+  210  clear
+  211  git add .
+  212  git commit -a
+  213  ls
+  214  ls -la
+  215  clear
+  216  exit
+  217  clear
+  218  ls
+  219  ls
+  220  mv /home/equipo6/control/paquetecanaima/canaima-notas-gnome-4.0/ /home/equipo6/Escritorio/
+  221  ls
+  222  clear
+  223  ls
+  224  cd ..
+  225  rm -r
+  226  rm -r paquetecanaima/
+  227  clear
+  228  git clone https://github.com/wiyi19/paquetecanaima.git
+  229  exit
+  230  ls
+  231  rm -r paquetecanaima/
+  232  clear
+  233  ls
+  234  exit
+  235  mv /home/equipo6/Escritorio/canaima-notas-gnome-4.0/ /home/equipo6/control/paquetecanaima/
+  236  clear
+  237  ls
+  238  git add --all
+  239  git commit -a -m "Subiendo canaima-notas-gnome-4.0"
+  240  git push
+  241  ls
+  242  ls -la
+  243  clear
+  244  touch README.md
+  245  git init
+  246  git add README.md
+  247  git commit -m "first commit"
+  248  git remote add origin https://github.com/wiyi19/paquetecanaima.git
+  249  git push -u origin master
+  250  clear
+  251  aptitude install canaima-semilla
+  252  clear
+  253  cd ..
+  254  cd ..
+  255  cd ..
+  256  cd control
+  257  ls
+  258  cd equipo6/control/
+  259  ls
+  260  clear
+  261  cd paquetecanaima/
+  262  cd ..
+  263  cd ..
+  264  cd ..
+  265  aptitude install canaima-semilla
+  266  aptitude search canaima-semilla
+  267  clear
+  268  canaima-semilla construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  269  canaima-semilla
+  270  c -s gui
+  271  c-s gui
+  272  c-s -gui
+  273  c-s-gui
+  274  clear
+  275  c-s-gui
+  276  clear
+  277  cd /usr/share/canaima-semilla/
+  278  ls
+  279  cd profiles/
+  280  ls
+  281  cp -R primera-base gobernacion
+  282  ls
+  283  cd gobernacion/
+  284  ls
+  285  nano profile.conf 
+  286  clear
+  287  c-s-gui
+  288  clear
+  289  cat /etc/apt/sources.list
+  290  nano profile.conf 
+  291  nano profile.conf 
+  292  nano profile.conf 
+  293  clear
+  294  clear
+  295  nano profile.conf 
+  296  ps -aux | grep c-s-gui
+  297  kill -9 13192 13222 13239
+  298  kill -9 13192 13222
+  299  clear
+  300  ps -aux | grep c-s-gui
+  301  clear
+  302  clear
+  303  nano profile.conf 
+  304  ps -aux | grep c-s-gui
+  305  ps -aux | grep c-s
+  306  clear
+  307  nano profile.conf 
+  308  c-s-gui
+  309  clear
+  310  ps -aux | grep c-s-gui
+  311  kill -9 13258
+  312  ps -aux | grep c-s-gui
+  313  clear
+  314  cd ..
+  315  cd ..
+  316  cd ..
+  317  cd ..
+  318  exit
+  319  ps -aux | grep c-s-gui
+  320  clear
+  321  clear
+  322  nano /etc/network/interfaces 
+  323  ifconfig -a
+  324  clear
+  325  iwlist scann
+  326  clear
+  327  iwlist scann
+  328  aptitude search iw
+  329  aptitude install iw
+  330  clear
+  331  iwlist scann
+  332  clear
+  333  aptitude install wireless-tools
+  334  clear
+  335  iwlist scann
+  336  if config wlan0 up; if config wlan0 up; clear; 
+  337  ls
+  338  cd ..
+  339  ls
+  340  nano profiles/institucional/profile.conf 
+  341  clear
+  342  ls
+  343  cd profiles/
+  344  cd primera-base/
+  345  ls
+  346  nano profile.conf 
+  347  ssh
+  348  cd ..
+  349  cd.
+  350  cd ..
+  351  cd ..
+  352  cd ..
+  353  cd ..
+  354  ls
+  355  clear
+  356  ssh 
+  357  aptitude search ssh
+  358  aptitude install ssh
+  359  clear
+  360  aptitude install ssh
+  361  clear
+  362  x11vnc -bg -gui -passwd 123456
+  363  clear
+  364  aptitude install arp-scan
+  365  aptitude install imagemagick
+  366  clear
+  367  c-s contruir --medio="iso" --arquitectura="i386" --sabor="popular"
+  368  c-s construir --medio="iso" --arquitectura="i386" --sabor="popular"
+  369  clear
+  370  c-s construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  371  cd /usr/share/canaima-semilla/
+  372  ls
+  373  cd profile
+  374  cd profiles
+  375  ls
+  376  clear
+  377  nano gobernacion/
+  378  ls
+  379  cd ..
+  380  ls
+  381  cd profiles/
+  382  ls
+  383  cd gobernacion/
+  384  ls
+  385  nano profile.conf
+  386  nano profile.conf
+  387  cd ..
+  388  ls
+  389  cd primera-base/
+  390  ls
+  391  nano profile.conf
+  392  cd ..
+  393  cd gobernacion/
+  394  nano profile.conf
+  395  c-s construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  396  nano profile.conf
+  397  clear
+  398  c-s construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  399  cd ..
+  400  ls
+  401  cd ..
+  402  ls
+  403  cd isos
+  404  ls
+  405  rm build.201406200900.log 
+  406  rm build.201406200914.log 
+  407  ls
+  408  clear
+  409  cd ..
+  410  ls
+  411  cd profiles/
+  412  ls
+  413  cd gobernacion/
+  414  ls
+  415  c-s construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  416  clear
+  417  c-s construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  418  clear
+  419  nano profile.conf 
+  420  clear
+  421  cd pro
+  422  clear
+  423  cd ..
+  424  ls
+  425  clear
+  426  ls
+  427  rm gobernacion/
+  428  clear
+  429  rm -r gobernacion/
+  430  ls
+  431  cp primera-base/ institucional
+  432  ls
+  433  clear
+  434  cp -r primera-base/ institucional
+  435  ls
+  436  cd institucional/
+  437  ls
+  438  nano profile.conf 
+  439  nano profile.conf 
+  440  c-s construir --medio="iso" --arquitectura="i386" --sabor="institucional"
+  441  clear
+  442  aptitude install nmap
+  443  cd /usr
+  444  ls
+  445  cd /usr/share/canaima-semilla/
+  446  ls
+  447  cd isos/
+  448  ls
+  449  cd chroot
+  450  ls
+  451  cd ..
+  452  ls
+  453  clear
+  454  chroot chroot
+  455  clear
+  456  nmap -A 172.16.1.63
+  457  clear
+  458  nmap -A T4 172.16.1.63
+  459  clear
+  460  nmap -A 172.16.1.63
+  461  aptitude install sl
+  462  clear
+  463  apt-get source sl
+  464  clear
+  465  mkdir sl
+  466  ls
+  467  cd sl-3.03/
+  468  ls
+  469  nano sl.h
+  470  dpkg-source commit
+  471  clear
+  472  dpkg-source --commit
+  473  dpkg-s
+  474  dpkg-buildpackage -us -uc
+  475  clear
+  476  ls
+  477  exit
+  478  clear
+  479  cp -r primera-base/ wilmarlinarez
+  480  ls
+  481  cd wilmarlinarez/
+  482  ls
+  483  nano profile.conf 
+  484  nano profile.conf 
+  485  cd ..
+  486  cp wilmarlinarez/ /home/equipo6//home/equipo6/evaluacion/actividadcursoasl
+  487  cp -r wilmarlinarez/ /home/equipo6//home/equipo6/evaluacion/actividadcursoasl
+  488  cp -r wilmarlinarez/ /home/equipo6/evaluacion/actividadcursoasl
+  489  cd ..
+  490  cd ..
+  491  cd ..
+  492  cd ..
+  493  exit
+  494  cd ..
+  495  exit
+  496  exit
+  497  git add -all
+  498  git add --all
+  499  git commit -a
+  500  clear
+  501  git push
+  502  ls -la
+  503  clear
+  504  mkdir canaima-semilla
+  505  cp -r wilmarlinarez canaima-semilla/
+  506  ls
+  507  history >> history.txt
