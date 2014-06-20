@@ -1,0 +1,4 @@
+equipo6  30724  1.6  4.1 872280 167472 ?       Sl   13:34   0:26 cunaguaro
+equipo6  30961  0.0  0.0   7852   876 pts/0    S+   14:01   0:00 grep cunaguaro
+equipo6  30724  1.5  4.3 874392 176640 ?       Sl   13:34   0:26 cunaguaro
+equipo6  30971  0.0  0.0   7852   876 pts/0    S+   14:02   0:00 grep cunaguaro

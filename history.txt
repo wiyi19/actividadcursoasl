@@ -1,0 +1,128 @@
+    1  clear
+    2  ls
+    3  pwd
+    4  clear
+    5  mkdir evaluacion
+    6  ls
+    7  cd evaluacion/
+    8  git clone https://github.com/julioh/cursoasl.git
+    9  ls
+   10  cd cursoasl
+   11  ls
+   12  nano evaluacion.txt
+   13  clear
+   14  cd ..
+   15  git clone https://github.com/wiyi19/actividadcursoasl.git
+   16  clear
+   17  ls
+   18  cd actividadcursoasl/
+   19  cd ..
+   20  ls
+   21  clear
+   22  ls
+   23  mv cursoasl/evaluacion.txt actividadcursoasl/
+   24  clear
+   25  cd actividadcursoasl/
+   26  ls
+   27  mv evaluacion.txt wilmarlinarez.txt
+   28  ls
+   29  git commit -a -m "cambiado el nombre del archivo .txt"
+   30  touch curso1.txt
+   31  chmod 061 curso1.txt
+   32  ls
+   33  ls -la
+   34  chmod 065 curso1.txt
+   35  ls -la
+   36  touch curso2.txt
+   37  chmod 726 curso2.txt
+   38  ls -la
+   39  touch curso3.txt
+   40  ls -la
+   41  chmod 111 curso3.txt
+   42  ls -la
+   43  touch curso4.txt
+   44  chmod 227 curso4.txt
+   45  ls -la
+   46  touch curso5.txt
+   47  chmod 064 curso5.txt
+   48  ls -la
+   49  clear
+   50  df 
+   51  df -h
+   52  mkdir cunaguaro
+   53  cd cunaguaro
+   54  ls
+   55  ps -aux | grep >> cunaguaro.txt
+   56  clear
+   57  ps -aux | grep >> cunaguaro.txt
+   58  clear
+   59  ps -aux | grep cunaguaro >> cunaguaro.txt
+   60  nano cunaguaro.txt
+   61  clear
+   62  cd ..
+   63  mkdir kernel
+   64  cd kernel
+   65  ps -aux | grep kernel >> kernel.txt
+   66  nano kernel.txt
+   67  mv kernel kernel1.0
+   68  mv -r kernel kernel1.0
+   69  clear
+   70  mv -r kernel kernel1.0
+   71  man mv
+   72  clear
+   73  cd ..
+   74  mv -r kernel/ kernel1.0
+   75  mv kernel/ kernel1.0
+   76  ls
+   77  clear
+   78  man more
+   79  clear
+   80  mkdir nls
+   81  rm nls
+   82  mkdir ls
+   83  aptitude install sl
+   84  su 
+   85  sl
+   86  clear
+   87  adduser wi
+   88  adduser add wi
+   89  clear
+   90  etc/apt/sources.list
+   91  nano /etc/apt/sources.list
+   92  man dbmirror
+   93  man debmirror
+   94  clear
+   95  debmirror man
+   96  clear
+   97  man debmirror
+   98  clear
+   99  ifconfig 
+  100  clear
+  101  ifconfig -a
+  102  iwlist scann
+  103  dhclient wlan0
+  104  clear
+  105  cd /usr/share
+  106  ls
+  107  cd canaima-semilla/
+  108  ls
+  109  clear
+  110  ls
+  111  cd profiles/
+  112  ls
+  113  cp primera-base/ wilmarlinarez
+  114  ls
+  115  cp primera-base wilmarlinarez
+  116  cp -r primera-base wilmarlinarez
+  117  su
+  118  clear
+  119  cd ..
+  120  cd /home/equipo6/evaluacion/
+  121  ls
+  122  clear
+  123  cd actividadcursoasl/
+  124  ls
+  125  touch pasoparacreariso.txt
+  126  nano pasoparacreariso.txt 
+  127  clear
+  128  history >> history.txt

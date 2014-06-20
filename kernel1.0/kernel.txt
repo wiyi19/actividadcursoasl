@@ -1,0 +1,1 @@
+equipo6  30979  0.0  0.0   7848   872 pts/0    S+   14:05   0:00 grep kernel

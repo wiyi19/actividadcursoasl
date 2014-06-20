@@ -1,0 +1,1 @@
+c-s constuir --medio0"iso" --arquitectura="i386" sabor="wilmarlinarez"
